@@ -4,7 +4,9 @@
 
 body{
     font-family: "Fira Sans", serif;
+    background-color: #F5F5F5;
 }
+
 
 header nav{
     display: flex;
@@ -46,6 +48,7 @@ header nav button:hover{
 .section-1 h4{
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
+    
 }
 .section-1 h1{
     font-size: 58px;
@@ -75,3 +78,137 @@ header nav button:hover{
 }
 
 /* section-2 styles */
+
+.section-2{
+    margin: 80px 160px 80px;
+}
+.section-2 h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+.section-2-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.section-2-card-box{
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+.section-2-card-box h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.section-2-card-box p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 12px;
+}
+
+/* section-3 styles */
+.section-3{
+    margin: 0px 160px 40px;
+}
+.section-3 h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.section-3 p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.section-3-card{
+    display: flex;
+    gap: 24px;
+    margin: 32px 0 32px 0;
+}
+
+.section-3-card1{
+    padding: 32px;
+    background-color: #d5e1f5;
+    border-radius: 16px;
+}
+.section-3-card2{
+    padding: 32px;
+    background-color: #c6e4d6;
+    border-radius: 16px;
+}
+.section-3-card3{
+    padding: 32px;
+    background-color: #f7ebcf;
+    border-radius: 16px;
+}
+.section-3-img{
+    margin-bottom: 24px;
+}
+.section-3 h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0e0e0ece;
+    margin-bottom: 12px;
+}
+.section-3-card1 button{
+    color: white;
+    background-color: #5490F5;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.section-3-card1 button:hover{
+    border: 1px solid #5490F5;
+    background-color: white;
+    color: #5490F5;
+}
+.section-3-card2 button{
+    color: white;
+    background-color: #09A15C;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.section-3-card2 button:hover{
+    border: 1px solid #09A15C;
+    background-color: white;
+    color: #09A15C;
+}
+.section-3-card3 button{
+    color: white;
+    background-color: #FFC239;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.section-3-card3 button:hover{
+    border: 1px solid #FFC239;
+    background-color: white;
+    color: #FFC239;
+}
+.section-3-last-icon{
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 16px;
+    padding: 24px;
+}
+.section-3-last-icon img{
+    position: absolute;
+}
+.dr-yunus{
+    padding-top: 23px;
+}
+.dr-yunus p{
+    margin-bottom: 12px;
+}

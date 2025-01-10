@@ -212,3 +212,44 @@ header nav button:hover{
 .dr-yunus p{
     margin-bottom: 12px;
 }
+
+/* section-4 style */
+
+.section-4{
+    margin: 0px 160px 40px;
+}
+.section-4 h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.section-4 div{
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.1) ;
+    border-radius: 16px;
+    justify-items: center;
+}
+
+.section-4 table{
+    border-collapse: collapse;
+    margin: 10px;
+
+}
+.section-4 div table tr{
+    border: 1px solid rgba(14, 14, 14, 0.1) ;
+}
+.section-4 div table td{
+    border: 1px solid rgba(14, 14, 14, 0.1) ;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 25px;
+}
+.section-4 select{
+    background-color: #c6e4d6;
+    padding: 8px 10px 8px 8px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.section-5{
+    
+}

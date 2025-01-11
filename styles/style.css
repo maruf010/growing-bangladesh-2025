@@ -100,6 +100,9 @@ header nav button:hover{
     background-color: #FFFFFF;
     border-radius: 18px;
     border: 1px solid rgba(14, 14, 14, 0.1);
+    /* max-height: 100%; */
+    text-align: justify;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.205);
 }
 .section-2-card-box h4{
     font-size: 20px;
@@ -220,22 +223,57 @@ header nav button:hover{
 }
 
 /* section-4 style */
-
 .section-4{
-    margin: 0px 160px 40px;
+    margin: 80px 160px 40px;
+    
 }
-.section-4 h1{
+.section-4 h3{
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 24px;
+    margin-top: 30px;
 }
 .table-container{
+    /* border: 1px solid red; */
     background-color: white;
-    border-radius: 16px;
     padding: 32px;
+    border-radius: 16px;
+    margin: 40px 0;
+}
+table{
+    padding: 32px;
+    background-color: white;
+    border-collapse: collapse;
+    
+}
+table td{
+    border: 1px solid #0e0e0e59;
+    padding: 22px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#table-heading{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #c6e4d6;
+}
+#Questions-data{
+    padding-right: 280px;
+}
+.section-4 tr td{
+    justify-content: space-between;
 }
 
+#option-center{
+    text-align: center;
 
+}
+.section-4 select{
+    background-color: #c6e4d6;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+/* section 5 style */
 .section-5{
     margin: 0px 160px 40px;
 
@@ -322,6 +360,7 @@ header nav button:hover{
     padding: 40px;
     border-radius: 16px;
     cursor: pointer;
+    box-shadow: 0 6px 50px 0 rgba(5, 3, 24, 0.170);
 }
 #taka-500{
     background-color: #bce5d2;

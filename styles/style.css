@@ -250,6 +250,10 @@ header nav button:hover{
     font-weight: 600;
     border-radius: 4px;
 }
+
+
+
+
 .section-5{
     margin: 0px 160px 40px;
 
@@ -304,6 +308,72 @@ header nav button:hover{
     font-weight: 600;
 }
 .section-5 button:hover{
+    color: #006A50;
+    background-color: white;
+    border: 2px solid #006A50;
+}
+
+
+
+
+.section-6{
+    margin: 0px 160px 40px;
+    justify-items: center;
+    text-align: center;
+}
+.section-6 h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.taka-card{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.taka-card div{
+    border: 1px solid rgba(14, 14, 14, 0.1) ;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+#taka-500{
+    background-color: #bce5d2;
+}
+#taka-500:hover{
+    background-color: #F5F5F5;
+}
+#taka-1000:hover{
+    background-color: #f7ebcf;
+}
+#taka-100:hover{
+    background-color: #c7d6f0;
+}
+#taka-200:hover{
+    background-color: rgba(192, 228, 47, 0.49);
+}
+.section-6 div input{
+    padding: 20px 320px;
+    border: none;
+    font-size: 20px;
+}
+hr{
+    border: 1px solid rgba(14, 14, 14, 0.107);
+    margin: 0 0 32px 0;
+}
+.section-6 button{
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.section-6 button:hover{
     color: #006A50;
     background-color: white;
     border: 2px solid #006A50;

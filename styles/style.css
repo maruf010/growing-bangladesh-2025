@@ -7,7 +7,6 @@ body{
     background-color: #F5F5F5;
 }
 
-
 header nav{
     display: flex;
     justify-content: space-between;
@@ -77,7 +76,7 @@ header nav button:hover{
     margin: 117px 0 117px 55px;
 }
 .section-1-img{
-    margin: 80px 58px 80px 60px;
+    margin: 80px 40px 80px 60px;
 }
 
 /* section-2 styles */
@@ -454,6 +453,7 @@ footer{
     margin-top: 80px;
     text-align: center;
     background-color: #FFFFFF;
+    padding-bottom: 20px;
 }
 footer h1{
     font-size: 32px;
